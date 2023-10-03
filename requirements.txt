@@ -1,0 +1,27 @@
+The above code is designed in Kaggle notebook with all the prerequistic libraries already present in kaggle notebook.
+
+If the code has to be runned on local machine the following libraries are needed to be installed for staring the engine:
+
+$ pip install numpy
+$ pip install pandas
+$ pip install mathplotlib
+$ pip install glob
+$ pip install tqdm
+$ pip install IPython
+$ pip install ffmpeg
+$ pip install opencv-python
+$ pip install Pytorch
+
+You can choose the Video from the different datasets present in Kaggle.
+In this project the driving-video-with-object-tracking dataset is used to obtain the video source and mot_labels.csv to generate the metadata from video used.
+
+
+The engine was runned on the machine with the specifictaions metioned below:
+
+CPU : i5 10th Gen Intel
+RAM : 8GB
+SSD : 512GB
+GPU : 4GB (Nvidia GeForce GTX)
+
+Use the conda Environment to install ffmpeg module to render the information from video.
+

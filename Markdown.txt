@@ -1,0 +1,23 @@
+The Project is build to create an AI Metadata Engine for video processing and 
+generate useful and well-defined metadata for each video file, each distinct
+moment in each video file, and/or each frame in each video file.
+
+
+Different approaches as you used to tackle the various types of metadata that are worth capturing the video data
+There are lots of strange data formats and annoying “Copy of…” prefixes present in the video.
+The scripts written in the program clean up that data and convert it to something useful format like .mp4!
+
+In this project the driving-video-with-object-tracking dataset is used to obtain the video source and mot_labels.csv to generate the metadata from video used.
+The Metadata Acquired from the results after processing the video are
+ d = [car, trucks, bikes, peditrain ,other cars, riders, cycle]
+ 
+The metadata generated after processing the video :-
+# Total Number Of Frames
+# Height and Width Of the Video
+# Frame Per Second (FPS)
+# Annotations and labels and transcripts of the video
+
+The engine pulls the video into mp4 format and render the frames using pyplot for each frame.
+The AI creates the the rectangle shape around each objects with differnt colors to identify them uniquely in the video.
+
+The final functions results in the genration of video in the mp4 format and the metadata in csv file.
